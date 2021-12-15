@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -54,7 +54,7 @@ namespace TaskWinForm
         {
             PanelGridTools.Visible = true;
             panelSearch.Visible = true;
-            bool wait= mainCtr.SelectData(_current_page_grid, _page_size_grid, search, dateFrom, dateTo);
+            bool wait= mainCtr.SelectData(_current_page_grid, _page_size_grid, search);
 
             if(wait==false)
             {
