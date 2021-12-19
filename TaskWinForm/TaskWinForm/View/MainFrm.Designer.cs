@@ -188,7 +188,7 @@
             // 
             // BtnFillDBFromApi
             // 
-            this.BtnFillDBFromApi.Location = new System.Drawing.Point(640, 112);
+            this.BtnFillDBFromApi.Location = new System.Drawing.Point(640, 170);
             this.BtnFillDBFromApi.Name = "BtnFillDBFromApi";
             this.BtnFillDBFromApi.Size = new System.Drawing.Size(195, 23);
             this.BtnFillDBFromApi.TabIndex = 15;
@@ -208,7 +208,7 @@
             // 
             // BtnFillGDApi
             // 
-            this.BtnFillGDApi.Location = new System.Drawing.Point(640, 170);
+            this.BtnFillGDApi.Location = new System.Drawing.Point(640, 112);
             this.BtnFillGDApi.Name = "BtnFillGDApi";
             this.BtnFillGDApi.Size = new System.Drawing.Size(195, 23);
             this.BtnFillGDApi.TabIndex = 17;

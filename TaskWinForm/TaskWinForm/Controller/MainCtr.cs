@@ -217,7 +217,6 @@ namespace TaskWinForm.Controller
                 { //run in UI thread
                     Lb_wait.Text = "Data Posted";
                     Lb_wait.ForeColor = Color.Green;
-
                 }), null);
             }
             catch (Exception ex)
@@ -262,7 +261,8 @@ namespace TaskWinForm.Controller
                 { //run in UI thread
                     Lb_wait.Text = "Data received";
                     Lb_wait.ForeColor = Color.Green;
-
+                    List<Comments> list = JsonConvert.DeserializeObject<List<Comments>>(response);
+                    frm.FillGridFrmApi(list);
                 }), null);
             }
             catch (Exception ex)

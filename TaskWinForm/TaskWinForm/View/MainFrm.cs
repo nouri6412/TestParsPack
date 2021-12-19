@@ -154,6 +154,7 @@ namespace TaskWinForm
         private void BtnFillGDApi_Click(object sender, EventArgs e)
         {
             mainCtr.GetAsync(LBWait, this);
+            MessageBox.Show("Please wait until get data from api", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void BtnFillDBFromApi_Click(object sender, EventArgs e)
